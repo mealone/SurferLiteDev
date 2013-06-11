@@ -21,7 +21,7 @@ namespace URLAutoFormat
         {
             // We need to put main code here of applying formatting input URL
 
-            int a=3;
+            int a=3, b=4;
             //check if the url is ok
             if (Uri.IsWellFormedUriString(textBoxInput.Text,UriKind.RelativeOrAbsolute)){
                 textBoxOutput.Text = textBoxInput.Text;
